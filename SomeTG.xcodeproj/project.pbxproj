@@ -9,21 +9,52 @@
 /* Begin PBXBuildFile section */
 		DF0076E82BA5F5B300FFB3EF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF0076E72BA5F5B300FFB3EF /* AppDelegate.swift */; };
 		DF0076EA2BA5F5B300FFB3EF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF0076E92BA5F5B300FFB3EF /* SceneDelegate.swift */; };
-		DF0076EC2BA5F5B300FFB3EF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF0076EB2BA5F5B300FFB3EF /* ViewController.swift */; };
-		DF0076EF2BA5F5B300FFB3EF /* Base in Resources */ = {isa = PBXBuildFile; fileRef = DF0076EE2BA5F5B300FFB3EF /* Base */; };
 		DF0076F12BA5F5B400FFB3EF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF0076F02BA5F5B400FFB3EF /* Assets.xcassets */; };
 		DF0076F42BA5F5B400FFB3EF /* Base in Resources */ = {isa = PBXBuildFile; fileRef = DF0076F32BA5F5B400FFB3EF /* Base */; };
+		DF0076FD2BA5F7CC00FFB3EF /* TDLibKit in Frameworks */ = {isa = PBXBuildFile; productRef = DF0076FC2BA5F7CC00FFB3EF /* TDLibKit */; };
+		DF0076FF2BA5F82300FFB3EF /* Td.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF0076FE2BA5F82300FFB3EF /* Td.swift */; };
+		DF0077012BA5F84100FFB3EF /* Logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF0077002BA5F84100FFB3EF /* Logger.swift */; };
+		DF0077032BA5F85B00FFB3EF /* NotificationCenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF0077022BA5F85B00FFB3EF /* NotificationCenter.swift */; };
+		DF0077052BA5F8A800FFB3EF /* NotificationName.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF0077042BA5F8A800FFB3EF /* NotificationName.swift */; };
+		DF0077072BA5F8CF00FFB3EF /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF0077062BA5F8CF00FFB3EF /* Task.swift */; };
+		DF00770A2BA6026C00FFB3EF /* Bundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF0077092BA6026C00FFB3EF /* Bundle.swift */; };
+		DF00770C2BA6027A00FFB3EF /* FileManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF00770B2BA6027A00FFB3EF /* FileManager.swift */; };
+		DF00770F2BA6029500FFB3EF /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF00770E2BA6029500FFB3EF /* Utils.swift */; };
+		DF0077122BA602D100FFB3EF /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF0077112BA602D100FFB3EF /* BaseViewController.swift */; };
+		DF0077142BA6030600FFB3EF /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF0077132BA6030600FFB3EF /* RootViewController.swift */; };
+		DF0077172BA6050800FFB3EF /* PublishedUserDefault.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF0077162BA6050800FFB3EF /* PublishedUserDefault.swift */; };
+		DF0077192BA6054D00FFB3EF /* UserDefault.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF0077182BA6054D00FFB3EF /* UserDefault.swift */; };
+		DF00771D2BA62C6700FFB3EF /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF00771C2BA62C6700FFB3EF /* LoginViewController.swift */; };
+		DF00771F2BA63AE700FFB3EF /* Sequence.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF00771E2BA63AE700FFB3EF /* Sequence.swift */; };
+		DF0077222BA63B0400FFB3EF /* CustomChat.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF0077212BA63B0400FFB3EF /* CustomChat.swift */; };
+		DF0077242BA63B1800FFB3EF /* NavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF0077232BA63B1800FFB3EF /* NavigationController.swift */; };
+		DF0077262BA63B2D00FFB3EF /* ChatsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF0077252BA63B2D00FFB3EF /* ChatsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		DF0076E42BA5F5B300FFB3EF /* SomeTG.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SomeTG.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DF0076E72BA5F5B300FFB3EF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DF0076E92BA5F5B300FFB3EF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		DF0076EB2BA5F5B300FFB3EF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		DF0076EE2BA5F5B300FFB3EF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DF0076F02BA5F5B400FFB3EF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DF0076F32BA5F5B400FFB3EF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DF0076F52BA5F5B400FFB3EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DF0076FE2BA5F82300FFB3EF /* Td.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Td.swift; sourceTree = "<group>"; };
+		DF0077002BA5F84100FFB3EF /* Logger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Logger.swift; sourceTree = "<group>"; };
+		DF0077022BA5F85B00FFB3EF /* NotificationCenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationCenter.swift; sourceTree = "<group>"; };
+		DF0077042BA5F8A800FFB3EF /* NotificationName.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationName.swift; sourceTree = "<group>"; };
+		DF0077062BA5F8CF00FFB3EF /* Task.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
+		DF0077092BA6026C00FFB3EF /* Bundle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bundle.swift; sourceTree = "<group>"; };
+		DF00770B2BA6027A00FFB3EF /* FileManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileManager.swift; sourceTree = "<group>"; };
+		DF00770E2BA6029500FFB3EF /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
+		DF0077112BA602D100FFB3EF /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		DF0077132BA6030600FFB3EF /* RootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
+		DF0077162BA6050800FFB3EF /* PublishedUserDefault.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PublishedUserDefault.swift; sourceTree = "<group>"; };
+		DF0077182BA6054D00FFB3EF /* UserDefault.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefault.swift; sourceTree = "<group>"; };
+		DF00771C2BA62C6700FFB3EF /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		DF00771E2BA63AE700FFB3EF /* Sequence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sequence.swift; sourceTree = "<group>"; };
+		DF0077212BA63B0400FFB3EF /* CustomChat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomChat.swift; sourceTree = "<group>"; };
+		DF0077232BA63B1800FFB3EF /* NavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationController.swift; sourceTree = "<group>"; };
+		DF0077252BA63B2D00FFB3EF /* ChatsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +62,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DF0076FD2BA5F7CC00FFB3EF /* TDLibKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,15 +88,70 @@
 		DF0076E62BA5F5B300FFB3EF /* SomeTG */ = {
 			isa = PBXGroup;
 			children = (
+				DF0077202BA63AFD00FFB3EF /* Models */,
+				DF0077152BA604FE00FFB3EF /* PropertyWrappers */,
+				DF0077102BA602C600FFB3EF /* ViewControllers */,
+				DF00770D2BA6028A00FFB3EF /* Utils */,
+				DF0077082BA6026400FFB3EF /* Extensions */,
 				DF0076E72BA5F5B300FFB3EF /* AppDelegate.swift */,
 				DF0076E92BA5F5B300FFB3EF /* SceneDelegate.swift */,
-				DF0076EB2BA5F5B300FFB3EF /* ViewController.swift */,
-				DF0076ED2BA5F5B300FFB3EF /* Main.storyboard */,
 				DF0076F02BA5F5B400FFB3EF /* Assets.xcassets */,
 				DF0076F22BA5F5B400FFB3EF /* LaunchScreen.storyboard */,
 				DF0076F52BA5F5B400FFB3EF /* Info.plist */,
 			);
 			path = SomeTG;
+			sourceTree = "<group>";
+		};
+		DF0077082BA6026400FFB3EF /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				DF0077092BA6026C00FFB3EF /* Bundle.swift */,
+				DF00770B2BA6027A00FFB3EF /* FileManager.swift */,
+				DF0077022BA5F85B00FFB3EF /* NotificationCenter.swift */,
+				DF0077042BA5F8A800FFB3EF /* NotificationName.swift */,
+				DF0077062BA5F8CF00FFB3EF /* Task.swift */,
+				DF00771E2BA63AE700FFB3EF /* Sequence.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		DF00770D2BA6028A00FFB3EF /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				DF00770E2BA6029500FFB3EF /* Utils.swift */,
+				DF0076FE2BA5F82300FFB3EF /* Td.swift */,
+				DF0077002BA5F84100FFB3EF /* Logger.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		DF0077102BA602C600FFB3EF /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				DF0077112BA602D100FFB3EF /* BaseViewController.swift */,
+				DF0077132BA6030600FFB3EF /* RootViewController.swift */,
+				DF00771C2BA62C6700FFB3EF /* LoginViewController.swift */,
+				DF0077232BA63B1800FFB3EF /* NavigationController.swift */,
+				DF0077252BA63B2D00FFB3EF /* ChatsViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		DF0077152BA604FE00FFB3EF /* PropertyWrappers */ = {
+			isa = PBXGroup;
+			children = (
+				DF0077162BA6050800FFB3EF /* PublishedUserDefault.swift */,
+				DF0077182BA6054D00FFB3EF /* UserDefault.swift */,
+			);
+			path = PropertyWrappers;
+			sourceTree = "<group>";
+		};
+		DF0077202BA63AFD00FFB3EF /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				DF0077212BA63B0400FFB3EF /* CustomChat.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +170,9 @@
 			dependencies = (
 			);
 			name = SomeTG;
+			packageProductDependencies = (
+				DF0076FC2BA5F7CC00FFB3EF /* TDLibKit */,
+			);
 			productName = SomeTG;
 			productReference = DF0076E42BA5F5B300FFB3EF /* SomeTG.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +201,9 @@
 				Base,
 			);
 			mainGroup = DF0076DB2BA5F5B300FFB3EF;
+			packageReferences = (
+				DF0076FB2BA5F7CC00FFB3EF /* XCRemoteSwiftPackageReference "TDLibKit" */,
+			);
 			productRefGroup = DF0076E52BA5F5B300FFB3EF /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -127,7 +220,6 @@
 			files = (
 				DF0076F12BA5F5B400FFB3EF /* Assets.xcassets in Resources */,
 				DF0076F42BA5F5B400FFB3EF /* Base in Resources */,
-				DF0076EF2BA5F5B300FFB3EF /* Base in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,23 +230,31 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DF0076EC2BA5F5B300FFB3EF /* ViewController.swift in Sources */,
+				DF0077072BA5F8CF00FFB3EF /* Task.swift in Sources */,
+				DF00770A2BA6026C00FFB3EF /* Bundle.swift in Sources */,
+				DF00771F2BA63AE700FFB3EF /* Sequence.swift in Sources */,
+				DF0077012BA5F84100FFB3EF /* Logger.swift in Sources */,
+				DF00771D2BA62C6700FFB3EF /* LoginViewController.swift in Sources */,
+				DF0077032BA5F85B00FFB3EF /* NotificationCenter.swift in Sources */,
+				DF0077142BA6030600FFB3EF /* RootViewController.swift in Sources */,
+				DF0077122BA602D100FFB3EF /* BaseViewController.swift in Sources */,
+				DF0077222BA63B0400FFB3EF /* CustomChat.swift in Sources */,
+				DF00770C2BA6027A00FFB3EF /* FileManager.swift in Sources */,
+				DF0077172BA6050800FFB3EF /* PublishedUserDefault.swift in Sources */,
+				DF0077192BA6054D00FFB3EF /* UserDefault.swift in Sources */,
+				DF0077052BA5F8A800FFB3EF /* NotificationName.swift in Sources */,
+				DF0077242BA63B1800FFB3EF /* NavigationController.swift in Sources */,
+				DF00770F2BA6029500FFB3EF /* Utils.swift in Sources */,
 				DF0076E82BA5F5B300FFB3EF /* AppDelegate.swift in Sources */,
 				DF0076EA2BA5F5B300FFB3EF /* SceneDelegate.swift in Sources */,
+				DF0077262BA63B2D00FFB3EF /* ChatsViewController.swift in Sources */,
+				DF0076FF2BA5F82300FFB3EF /* Td.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		DF0076ED2BA5F5B300FFB3EF /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				DF0076EE2BA5F5B300FFB3EF /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		DF0076F22BA5F5B400FFB3EF /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -218,7 +318,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -275,7 +375,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
@@ -295,21 +395,27 @@
 				DEVELOPMENT_TEAM = 7Z2WHPKU8W;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = SomeTG/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = SomeTG;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.social-networking";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = org.levochkaa.SomeTG;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -323,21 +429,27 @@
 				DEVELOPMENT_TEAM = 7Z2WHPKU8W;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = SomeTG/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = SomeTG;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.social-networking";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = org.levochkaa.SomeTG;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -363,6 +475,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		DF0076FB2BA5F7CC00FFB3EF /* XCRemoteSwiftPackageReference "TDLibKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Swiftgram/TDLibKit";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		DF0076FC2BA5F7CC00FFB3EF /* TDLibKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DF0076FB2BA5F7CC00FFB3EF /* XCRemoteSwiftPackageReference "TDLibKit" */;
+			productName = TDLibKit;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = DF0076DC2BA5F5B300FFB3EF /* Project object */;
 }
